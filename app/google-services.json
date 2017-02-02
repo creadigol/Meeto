@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "836194330470",
+    "project_id": "meetto-144708"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836194330470:android:78508981975b3e72",
+        "android_client_info": {
+          "package_name": "creadigol.com.meetto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBni9SfEef1Le5jlttCh9v3jLb1OrWLHIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

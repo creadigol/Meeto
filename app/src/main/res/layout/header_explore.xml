@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_explore"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="2dp"
+    card_view:cardElevation="1dp">
+
+
+    <FrameLayout
+        android:id="@+id/frame_redeem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+
+        <ImageView
+            android:id="@+id/img_cardexpl"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/staroutlet" />
+
+
+        <TextView
+            android:id="@+id/tv_trending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Star Outlet"
+            android:textColor="#FFF"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:background="#8222"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meeto</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="album_name">CameraSample</string>
+
+    <string name="gcm_sender_id">657281407701</string>
+    <string name="gcm_server_key">AIzaSyB_827eAVBdFwsgWoOrlD7rCW4LoMwf-Pg</string>
+    <!--<string name="facebook_app_id">236568240079026</string>-->
+    <!--<string name="facebook_app_id">155989831521172</string>-->
+
+    //splash activity
+    <string name="login">ログイン</string>
+    <string name="register">登録</string>
+    <string name="skip">スキップ</string>
+    <string name="fb_msg">あなたは、フェイスブックを経由して、ログインをキャンセルしました</string>
+    <string name="setlang">言語を設定します</string>
+    <string name="Login_msg">あなたのアカウントにログインしてください!</string>
+
+    //set langauge
+    <string name="setlang_hint">希望する言語を優先選択してください</string>
+
+    //login activity
+    <string name="email_hint">電子メールID</string>
+    <string name="password_hint">パスワード</string>
+    <string name="forgot_password">パスワードをお忘れですか ?</string>
+    <string name="email_error">あなたの電子メールイドを入力してください。</string>
+    <string name="email_error_2">有効な電子メールイドを入力します。</string>
+    <string name="password_error">パスワードを入力してください</string>
+    <string name="profile_choose1">言語を選択</string>
+
+
+    //forgot password activity
+    <string name="forgot_email">電子メールイド</string>
+    <string name="forgot_btn">送信</string>
+
+    //registration activity
+    <string name="rg_fname_hint">ファーストネーム</string>
+    <string name="rg_lname_hint">苗字</string>
+    <string name="rg_email_hint">電子メールID</string>
+    <string name="rg_password_hint">パスワード</string>
+    <string name="rg_conf_p_hint">パスワードを認証する</string>
+    <string name="rg_btn">登録</string>
+    <string name="rg_already">既にメンバー? ログイン</string>
+    <string name="rg_fisrterror">ユーザーファーストネームは空に傾けます</string>
+    <string name="rg_lasterror">ユーザーの姓を空にすることはカント</string>
+    <string name="rg_emailerror">メールは空であるカント</string>
+    <string name="rg_passworderror">パスワードが空であるカント</string>
+    <string name="rg_passworderror_2">パスワードは8文字以上でなければなりません.</string>
+    <string name="rg_confpassworderror">パスワードが合わない.</string>
+    <string name="rg_emailvalid">有効なメールアドレスを入力してください.</string>
+    <string name="rg_reqmsg">私たちはあなたを登録するまでお待ちください.</string>
+
+    //home activity
+    <string name="home_searchs">セミナーの検索</string>
+    <string name="home_banner_name1">あなたの新しいセミナーを探します</string>
+    <string name="home_banner_name2">いつでも何かを学ぶセミナーを選びなさい</string>
+    <string name="home_city">選択します</string>
+    <string name="home_msg">Meetoへようこそ</string>
+    <string name="home_msg_2">仕事あなたの必要性に従って</string>
+
+    //home draweble
+    <string name="drawer_home">ホーム</string>
+    <string name="drawer_yourlisting">マイリスト</string>
+    <string name="drawer_yourBooking">マイ・ブッキング</string>
+    <string name="drawer_wishlist">ウィッシュリスト</string>
+    <string name="drawer_setting">設定</string>
+    <string name="drawer_review">レビュー</string>
+    <string name="drawer_share">シェア</string>
+
+    //seminar list
+    <string name="seminar_list_name">セミナー一覧</string>
+
+    //seminar filter
+    <string name="filter_toolbar">検索プリファレンス</string>
+    <string name="filter_date">日付</string>
+    <string name="filter_To">に</string>
+    <string name="filter_seminar_attendees">セミナー参加者</string>
+    <string name="filter_seminar_place">セミナー場所</string>
+    <string name="filter_industry">産業</string>
+    <string name="filter_find">セミナーを探します</string>
+
+    //seminar arrendees
+    <string name="Business_category">ビジネスカテゴリー</string>
+    <string name="Welcome_Foreign_student">留学生</string>
+    <string name="inexperienced_person">未経験者</string>
+    <string name="New_graduate">新卒者</string>
+    <string name="mid_career_recruiting">中途採用</string>
+
+    //seminar place
+    <string name="private_office">専用オフィス</string>
+    <string name="Public_Place">公共の場</string>
+
+    //industry
+    <string name="Service">サービス</string>
+    <string name="Menufacturing">製造業</string>
+    <string name="Trade">トレード</string>
+    <string name="Finance_Business">金融業</string>
+    <string name="Building">建物</string>
+    <string name="Real_estate">不動産</string>
+    <string name="IT">それ</string>
+    <string name="Education">教育</string>
+    <string name="Food">フード</string>
+    <string name="Publishing">出版</string>
+    <string name="Agricultural">農産業</string>
+    <string name="Timber">木材</string>
+    <string name="Fishing">釣り</string>
+    <string name="Marin_Product">マリン製品</string>
+    <string name="Stock_Farming">牧畜</string>
+    <string name="Medical">医療の</string>
+
+    //profile actiivty
+    <string name="profile_toolbar">人物点描</string>
+    <string name="profile_Logout">ログアウト</string>
+    <string name="profile_chanegimage">イメージ変更</string>
+    <string name="profile_personal_information">個人情報</string>
+    <string name="profile_First_Name">ファーストネーム</string>
+    <string name="profile_hint_First_Name">ユーザの名</string>
+    <string name="profile_Last_Name">苗字</string>
+    <string name="profile_hint_Last_Name">ユーザーの姓</string>
+    <string name="profile_Gender">性別</string>
+    <string name="profile_Gender_Male">男性</string>
+    <string name="profile_Gender_Female">女性</string>
+    <string name="profile_Birth_Date">誕生日</string>
+    <string name="profile_Birth_Date_hint">dd-mm-yyyy</string>
+    <string name="profile_Private_Information">個人情報</string>
+    <string name="profile_Email">Eメール</string>
+    <string name="profile_Verifyme">私を確認します</string>
+    <string name="profile_Phone_Number">電話番号</string>
+    <string name="profile_Phone_Number_hint">モバイルなし</string>
+    <string name="profile_About_you">あなた自身について</string>
+    <string name="profile_Country">国</string>
+    <string name="profile_state">状態</string>
+    <string name="profile_city">シティ</string>
+    <string name="profile_Where_you_live">あなたが住んでいる場所</string>
+    <string name="profile_Where_you_live_hint">アドレスを入力してください</string>
+    <string name="profile_Describ_yourself">自分を説明します</string>
+    <string name="profile_Describ_yourself_hint">あなたの自己</string>
+    <string name="profile_Optional">会社の詳細（オプション）</string>
+    <string name="profile_Company_Name">会社名</string>
+    <string name="profile_Company_Name_hint">会社名を入力します。</string>
+    <string name="profile_Company_Description">会社の説明</string>
+    <string name="profile_Company_Description_hint">会社の説明を入力します。</string>
+    <string name="profile_Fax_number">ファクス番号</string>
+    <string name="profile_Fax_number_hint">ファクス番号を入力してください</string>
+    <string name="profile_Url">Url</string>
+    <string name="profile_Url_hint">URLを入力してください</string>
+    <string name="profile_Time_Zone">タイムゾーン</string>
+    <string name="profile_save">セーブ</string>
+
+    //Language
+    <string name="profile_Language">言語</string>
+    <string name="profile_English">英語</string>
+    <string name="profile_Hindi">ヒンディー語</string>
+    <string name="profile_Gujarati">グジャラート語</string>
+    <string name="profile_French">フランス語</string>
+    <string name="profile_spanish">スペイン人</string>
+    <string name="profile_Japenese">日本語</string>
+    <string name="profile_Language_you_speak">あなたが好む言語</string>
+    <string name="profile_Language_know">あなたが知っている言語</string>
+
+    //organization type
+    <string name="profile_Organization_Type">組織の種類</string>
+    <string name="profile_Profit_Organization">営利団体</string>
+    <string name="profile_non_Profit_Organization">非営利団体</string>
+
+    //facility
+    <string name="WiFi">WiFi</string>
+    <string name="Whiteboard">ホワイトボード</string>
+    <string name="LCD_Projector">液晶 /プロジェクター</string>
+    <string name="Coffee_Tea">コーヒー/ティー</string>
+    <string name="Printer">プリンタ</string>
+    <string name="Scanner">スキャナ</string>
+    <string name="Copy_Machine">コピー機</string>
+    <string name="Air_Conditioner">エアコン</string>
+    <string name="Public_Parking">公共駐車場</string>
+    <string name="Private_Parking">専用駐車場</string>
+    <string name="Receptionist">受付</string>
+
+    //seminar deatils
+    <string name="seminardetails_saet">利用可能な座席</string>
+    <string name="seminardetails_address">セミナー住所</string>
+    <string name="seminardetails_explore">-> エリアを探索</string>
+    <string name="seminardetails_about">セミナーについて</string>
+    <string name="seminardetails_read">-> 続きを読む</string>
+    <string name="seminardetails_readless">-> レスを読みます</string>
+    <string name="seminardetails_Fromdate">日から</string>
+    <string name="seminardetails_todate">現在まで</string>
+    <string name="seminardetails_fromtime">時から</string>
+    <string name="seminardetails_Industry_type">産業タイプ</string>
+    <string name="seminardetails_totime">時間に</string>
+    <string name="seminardetails_facilitie">ファシリティ</string>
+    <string name="seminardetails_Review">レビュー</string>
+    <string name="seminardetails_Review_hint">レビューがありませんここYetStayないと、あなたは、このホストに彼らの最初のレビューを与えることができます!</string>
+    <string name="seminardetails_abouthost">ホストについて,</string>
+    <string name="seminardetails_similarseminar">同様の セミナー</string>
+    <string name="seminardetails_book">予約</string>
+    <string name="seminardetails_Toast">あなたは既にこのセミナーを予約しています</string>
+    <string name="seminardetails_Toastadmin">あなたはとてもあなたが予約していない管理者であります</string>
+    <string name="seminardetails_attendees">セミナー 参加者</string>
+
+    //seminar booking
+    <string name="booking_toolbar">マイ・ブッキング</string>
+    <string name="booking_overview">ご予約の概要</string>
+    <string name="booking_seminarname">セミナー名：</string>
+    <string name="booking_username">ホスト名：</string>
+    <string name="booking_seminartype">セミナーの種類：</string>
+    <string name="booking_org">組織の種類:</string>
+    <string name="booking_booking_date_hint">ご予約の日付を選択します。</string>
+    <string name="booking_seat">総座席</string>
+    <string name="booking_seat_hinr">座席数を入力してください</string>
+    <string name="booking_seat_available">利用できます</string>
+    <string name="booking_personal_info">個人情報</string>
+    <string name="booking_bookingid">予約同上</string>
+    <string name="booking_message">メッセージ</string>
+    <string name="booking_message_hint">メモを入力します</string>
+    <string name="booking_bookbtn">今予約する</string>
+    <string name="booking_seat_error">座席の いいえ と入力します</string>
+    <string name="booking_fromdate_error">日付から選択します。</string>
+    <string name="booking_todate_error">現在までに選択します</string>
+    <string name="booking_date_error">適切な日付を選択</string>
+    <string name="booking_booking_req">私たちはセミナーを予約するまでお待ちください。</string>
+    <string name="availableseat">席</string>
+    //seminar listing
+    <string name="your_listing_toolbar">マイリスト</string>
+    <string name="your_listing_edit">編集</string>
+    <string name="your_listing_delete">削除</string>
+    <string name="your_listing_show">ショー</string>
+    <string name="your_listing_msg">あなたのリストにはレコードはありません!!!</string>
+    <string name="your_listing_Delete_Item">アイテムの削除</string>
+    <string name="your_listing_Delete_msg">この項目を削除してもよろしいです!!!</string>
+    <string name="your_listing_ok">Ok</string>
+    <string name="your_listing_Cancel">キャンセル</string>
+
+    //seminar bookinglist
+    <string name="seminar_booklist_toolbar">セミナーの予約一覧</string>
+    <string name="seminar_booklist_msg">記録はありません！</string>
+    <string name="seminar_booklist_Status">状態：</string>
+
+    //accepted decline
+    <string name="accepted_username">ユーザー名</string>
+    <string name="accepted_name">ザー名:</string>
+    <string name="accepted_Booking_Date">予約日</string>
+    <string name="accepted_Booking_seat">予約席</string>
+    <string name="accepted_btnaacept">一般に認められました</string>
+    <string name="accepted_btndecline">低下</string>
+
+    //yourBooking
+    <string name="yourbooking_toolbar">ご予約</string>
+    <string name="yourbooking_msg">あなたの予約リストで利用できるレコードいいえ!!!</string>
+    <string name="yourbooking_Bookedon">上の予 約:</string>
+    <string name="yourbooking_host">ホスト:</string>
+    <string name="yourbooking_Date">日付:</string>
+    <string name="from_Date">日付から:</string>
+    <string name="to_Date">現在まで:</string>
+
+    <string name="Booking_Num">予約番号:</string>
+    <string name="yourbooking_Host_Approval">ホストの承認:</string>
+
+    //wishlist
+    <string name="wishlist_toolbar">ウィッシュリスト</string>
+    <string name="wishlist_msg">あなたのウィッシュリストにレコード利用できますではありません!!!</string>
+    <string name="wishlis_name">セミナー名：</string>
+    <string name="wishlis_date">日付:</string>
+    <string name="wishlis_seats">座席総数:</string>
+
+
+
+    //setting
+    <string name="setting_toolbar">設定</string>
+    <string name="setting_change">パスワードを変更する</string>
+    <string name="setting_notificaion">通知設定</string>
+    <string name="change_oldpassword">パスワードを入力する</string>
+    <string name="change_oldwrong">古いパスワードが間違っています</string>
+    <string name="change_newpassword">新しいパスワードを入力してください</string>
+    <string name="change_conpass">新しいパスワードと古いパスワードを同じにすることはありません</string>
+    <string name="change_confirm">一致しないパスワードを確認</string>
+    <string name="change_msg">パスワードは正常に変更されました</string>
+    <string name="change_Edit_Password">パスワードの編集</string>
+    <string name="change_old_Password">以前のパスワード</string>
+    <string name="change_New_Password">新しいパスワード</string>
+    <string name="change_Confirm_Password">パスワードを認証する</string>
+
+    //notification
+    <string name="notification_toolbar">お知らせ</string>
+    <string name="notification_msg">いいえ新しいアップデートはありません</string>
+    <string name="notification_msg1">あなたが新しい通知を持っているように我々はすぐに通知されます</string>
+
+    //add seminar
+    <string name="add_Toolbar">セミナーを追加</string>
+    <string name="add_ACCOMMODATES">収納</string>
+    <string name="add_seat">総座席を入力してください</string>
+    <string name="add_CONTINUE">持続する</string>
+    <string name="add_basic">基本</string>
+    <string name="add_Contact">接触</string>
+    <string name="add_day">日</string>
+    <string name="add_Description">説明</string>
+    <string name="add_Overview">概要</string>
+    <string name="add_Photo">写真</string>
+    <string name="add_Setting">設定</string>
+    <string name="add_Amenities">アメニティ</string>
+    <string name="add_Location">ロケーション</string>
+    <string name="add_submit">提出します</string>
+
+    //add seminar details
+    <string name="add_Contact_msg">設定されたデフォルトの毎日の価格の賃借人は、あなたのリストを参照します.</string>
+    <string name="add_hostname">人のホスト名</string>
+    <string name="add_hostname_hint">ホスト人物名を入力してください</string>
+    <string name="add_Contact_Email">連絡先メールアドレス</string>
+    <string name="add_Contact_Email_hint">連絡先メールアドレスを入力してください</string>
+    <string name="add_Contact_No">連絡先番号</string>
+    <string name="add_Contact_No_hint">いいえ接点入力</string>
+    <string name="add_Title">タイトル</string>
+    <string name="add_Title_hint">セミナーのタイトルを入力してください</string>
+    <string name="add_Tagline">キャッチフレーズ</string>
+    <string name="add_Tagline_hint">セミナーのキャッチフレーズを入力してください</string>
+    <string name="add_Qualification">資格</string>
+    <string name="add_Qualification_hint">資格を入力してください</string>
+    <string name="add_desc_msg">最大150の言葉</string>
+    <string name="add_desc">説明</string>
+    <string name="add_photoadd">写真を追加!!!</string>
+    <string name="add_photomsg">1つまたは2つ以上！賃貸人は、セミナーの特徴を強調する写真がある場所に行くことを好む.</string>
+    <string name="add_photobtn">写真を追加します</string>
+    <string name="add_photonote">注：画像サイズ1349px X 500pxなど</string>
+    <string name="add_facilities_msg">ほとんどのホストのリストで、一般的な設備.</string>
+    <string name="add_location_msg">正確なセミナーアドレスは、セミナーの場所を見つけるのに役立ちます.</string>
+    <string name="add_Street_Address">住所</string>
+    <string name="add_Street_Address_hint">適切住所を入力してください</string>
+    <string name="add_ZIP_Code">郵便番号</string>
+    <string name="add_photo_upload">アップロードする写真を選択します</string>
+    <string name="add_photo_Gallery">ギャラリー</string>
+    <string name="add_photo_Take_Photo">写真を撮る</string>
+    <string name="add_start_error">開始時刻を入力してください</string>
+    <string name="add_end_start">終了時刻を入力してください</string>
+
+    //Review
+    <string name="review_toolbar">レビュー</string>
+    <string name="review_add">レビューを追加</string>
+    <string name="review">レビュー:</string>
+    <string name="Your_Review">あなたのレビュー</string>
+    <string name="user_Review">ユーザーレビュー</string>
+    <string name="review_msg">あなたはなしレビューがありません</string>
+    <string name="review_msg_2">いいえユーザーレビューはありません</string>
+    <string name="review_res">きみの_レビュー</string>
+    <string name="review_res_2">ユーザー_レビュー</string>
+    //download
+    <string name="download">ダウンロード</string>
+    <string name="downloadmsg">デバイスのストレージ/ Meetoに成功し、チェックをダウンロード</string>
+
+    //search
+    <string name="Search">検索キュー</string>
+    <string name="Search_msg">いいえ、レコードの創設ありません!!!</string>
+
+    //error
+    <string name="network1">インフォ</string>
+    <string name="network2">ネットワークエラーをしてください、もう一度やり直してください</string>
+    <string name="network3">インターネット接続を確認してください</string>
+
+    //dialog
+    <string name="dialog_photo">写真を追加!</string>
+    <string name="dialog_photo1">写真を撮る</string>
+    <string name="dialog_photo2">ギャラリーから選択してください</string>
+    <string name="dialog_photo3">キャンセル</string>
+
+    //rotate dialog
+    <string name="Choose_Action">操作を選択します</string>
+    <string name="Rotate">ローテート</string>
+    <string name="done">終わりました</string>
+</resources>

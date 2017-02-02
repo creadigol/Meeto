@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home"
+            android:title="@string/drawer_home" />
+        <item
+            android:id="@+id/nav_listing"
+            android:icon="@drawable/listing"
+            android:title="@string/drawer_yourlisting" />
+        <item
+            android:id="@+id/nav_Booking"
+            android:icon="@drawable/booking"
+            android:title="@string/drawer_yourBooking" />
+        <item
+            android:id="@+id/nav_Wishlist"
+            android:icon="@drawable/wishlist"
+            android:title="@string/drawer_wishlist" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/setting"
+            android:title="@string/drawer_setting" />
+        <item
+            android:id="@+id/nav_Review"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/drawer_review" />
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@drawable/share"
+            android:title="@string/drawer_share" />
+        <!--<item
+            android:id="@+id/nav_Faqs"
+            android:icon="@drawable/icon_faq"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/nav_Aboutus"
+            android:icon="@drawable/informationoutline"
+            android:title="About Us" />-->
+    </group>
+</menu>
